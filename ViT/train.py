@@ -8,7 +8,7 @@ from torch.utils.data import random_split, Subset
 
 # Custom Imports
 from train_class import Trainer
-from factenc_vivit import ViVit
+from vit import Vit
 from train_utils import load_vit_weights
 from dataset_class import Custom_Traffic_Dataset
 
